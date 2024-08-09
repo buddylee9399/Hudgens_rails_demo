@@ -84,6 +84,7 @@ end
 
   gem "devise"
 
-  gem "rolify"
+  # gem "rolify"
 
   gem "pundit"
+gem 'petergate'

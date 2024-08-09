@@ -153,6 +153,8 @@ GEM
     nokogiri (1.16.7-arm64-darwin)
       racc (~> 1.4)
     orm_adapter (0.5.0)
+    petergate (3.0.0)
+      activerecord (> 4.0.0)
     public_suffix (6.0.1)
     puma (5.6.8)
       nio4r (~> 2.0)
@@ -199,7 +201,6 @@ GEM
       railties (>= 5.2)
     rexml (3.3.4)
       strscan
-    rolify (6.0.1)
     rouge (4.3.0)
     rubyzip (2.3.2)
     selenium-webdriver (4.23.0)
@@ -261,10 +262,10 @@ DEPENDENCIES
   faker
   importmap-rails
   jbuilder
+  petergate
   puma (~> 5.0)
   pundit
   rails (~> 7.0.8, >= 7.0.8.4)
-  rolify
   selenium-webdriver
   simple_form
   sprockets-rails
